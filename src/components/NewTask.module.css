@@ -1,0 +1,42 @@
+.contentNewTask{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 736px;
+    height: 54px;
+    position: relative;
+    margin: 0px auto;
+    top: -26px;
+}
+
+.contentNewTaskInput{
+    box-sizing: border-box;
+    width: 638px;
+    height: 54px;
+    background: #262626;
+    border: 1px solid #0D0D0D;
+    border-radius: 8px;
+    padding: 16px;
+    color: #f2f2f2;
+}
+
+.contentNewTaskButton{
+    background: #1E6F9F;
+    border-radius: 8px;
+    width: 90px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #f2f2f2;
+    transition: all 0.2s ease;
+    opacity: 1;
+}
+
+.contentNewTaskButton:disabled{
+    opacity: 0.8;
+    transition: all 0.2s ease;
+}
